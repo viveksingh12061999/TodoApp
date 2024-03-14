@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.todo-wrapper{
+  width:200px;
+  background-color: rgb(255, 84, 84);
+  margin-top: 1opx;
+  padding : 10px;
+}
+.todo-form{
+
+
+}
+
+.todo-list{
+padding:15px;
+}
+
+.todo-list .todo-item{
+padding-top : 5px;
+border-bottom: 1px dashed black;
+}
+.todo-list .todo-item span.strike{
+  text-decoration: line-through;
 }
